@@ -1,8 +1,10 @@
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   width: 100%;
   height: 100%;
@@ -21,15 +23,15 @@ html, body {
   vertical-align: middle;
 }
 
-h1{
+h1 {
   margin: 0em;
   font-size: 3em;
 }
 
-#root{  
+#root {
   text-align: center;
+  margin: 0;
   height: 88% - 2em;
-  padding: 2em;
 }
 
 .game {
@@ -39,7 +41,7 @@ h1{
 
 .body {
   display: flex;
-  border: 1px solid black;  
+  border: 1px solid black;
   margin: 1em auto;
 }
 
@@ -57,7 +59,7 @@ h1{
 }
 
 .star {
-	display: inline-block;
+  display: inline-block;
   margin: 0 15px;
 }
 
@@ -75,13 +77,14 @@ h1{
   font-size: 25px;
 }
 
-.number:focus, .number:active {
+.number:focus,
+.number:active {
   outline: none;
   border: thin solid #ddd;
 }
 
 .timer {
-	color: #666;
+  color: #666;
   margin-top: 3px;
   margin-left: 3px;
 }
